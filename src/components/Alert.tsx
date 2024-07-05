@@ -2,9 +2,12 @@ import { ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
+  name?:
+    | "alert alert-warning alert-dismissible fade show"
+    | "alert alert-primary";
 }
-const Alert = ({ children }: Props) => {
-  return <div className="alert alert-primary">{children}</div>;
+const Alert = ({ children, name = "alert alert-primary" }: Props) => {
+  return <div className={name}>{children}</div>;
 };
 
 export default Alert;
