@@ -129,27 +129,34 @@
 
 // export default App
 
-import ExpandableText from "./components/ExpandableText";
+// import ExpandableText from "./components/ExpandableText";
 
+// const App = () => {
+//   return (
+//     <div>
+//       <ExpandableText>
+//         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+//         incidunt minima ab vitae, error architecto, deserunt omnis ad autem enim
+//         id facilis cum ea perspiciatis expedita earum, numquam quisquam
+//         veritatis nihil consequuntur provident inventore. Aspernatur officia eum
+//         repellat aliquid consectetur architecto accusamus ratione suscipit atque
+//         veniam, ipsum dolorum est quas asperiores eveniet distinctio?
+//         Repudiandae recusandae quas hic. Porro optio voluptates dicta est
+//         temporibus cupiditate, eos maxime rerum et, accusantium, nisi quaerat
+//         quis atque ducimus magni doloribus! Fugit perferendis illo quaerat
+//         neque? Dignissimos repudiandae harum blanditiis voluptatum error
+//         assumenda, magnam maiores impedit quos eos corporis et id temporibus
+//         voluptas deleniti consequuntur!
+//       </ExpandableText>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+import Form from "./components/Form";
 const App = () => {
-  return (
-    <div>
-      <ExpandableText>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
-        incidunt minima ab vitae, error architecto, deserunt omnis ad autem enim
-        id facilis cum ea perspiciatis expedita earum, numquam quisquam
-        veritatis nihil consequuntur provident inventore. Aspernatur officia eum
-        repellat aliquid consectetur architecto accusamus ratione suscipit atque
-        veniam, ipsum dolorum est quas asperiores eveniet distinctio?
-        Repudiandae recusandae quas hic. Porro optio voluptates dicta est
-        temporibus cupiditate, eos maxime rerum et, accusantium, nisi quaerat
-        quis atque ducimus magni doloribus! Fugit perferendis illo quaerat
-        neque? Dignissimos repudiandae harum blanditiis voluptatum error
-        assumenda, magnam maiores impedit quos eos corporis et id temporibus
-        voluptas deleniti consequuntur!
-      </ExpandableText>
-    </div>
-  );
+  return <Form />;
 };
 
 export default App;
