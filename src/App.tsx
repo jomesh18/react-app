@@ -154,9 +154,39 @@
 
 // export default App;
 
-import Form from "./components/Form";
+// import Form from "./components/Form";
+// const App = () => {
+//   return <Form />;
+// };
+
+// export default App;
+
+// import { useRef, useEffect } from "react";
+
+// const App = () => {
+//   const ref = useRef<HTMLInputElement>(null);
+
+//   useEffect(() => {
+//     if (ref.current) ref.current.focus();
+//   });
+
+//   return (
+//     <div>
+//       <input ref={ref} type="text" className="form-control" />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+import ProductList from "./ProductList";
+
 const App = () => {
-  return <Form />;
+  return (
+    <div>
+      <ProductList />
+    </div>
+  );
 };
 
 export default App;
